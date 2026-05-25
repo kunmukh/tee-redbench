@@ -190,22 +190,22 @@ The pipeline will select `top_k` snippets (by simple token overlap) and prepend 
 If you use this code/prompt suite in academic work, please cite the paper:
 
 ```bibtex
-@misc{tee_redbench_2026,
-  title        = {Red-Teaming Claude Opus and ChatGPT-based Security Advisors for Trusted Execution Environments},
-  author       = {Anonymous Authors},
-  year         = {2026},
-  note         = {Anonymous submission to ACM CAIS 2026},
+@inproceedings{mukherjee2026teeredbench,
+  title     = {Red-Teaming Claude Opus and ChatGPT-based Security Advisors for Trusted Execution Environments},
+  author    = {Kunal Mukherjee and Spandan Mukherjee},
+  booktitle = {Proceedings of the ACM Conference on AI and Agentic Systems (CAIS) Workshop on AI Discovery in the Wild (AID-Wild)},
+  year      = {2026},
 }
 ```
 
 If you also want to cite the software artifact, you can add:
 
 ```bibtex
-@misc{tee_redbench_code,
-  title        = {TEE-RedBench: Code and prompt suite},
-  author       = {Anonymous Authors},
-  year         = {2026},
-  howpublished = {\url{https://anonymous.4open.science/status/tee-redbench-xxxx}},
+@software{teeredbench2026,
+  title   = {TEE-RedBench: Code and Prompt Suite},
+  author  = {Kunal Mukherjee and Spandan Mukherjee},
+  year    = {2026},
+  url     = {https://github.com/kunmukh/tee-redbench},
 }
 ```
 
